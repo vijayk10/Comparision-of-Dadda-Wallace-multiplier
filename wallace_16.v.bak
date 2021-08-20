@@ -1,0 +1,12 @@
+module wallace_16 (mpd,mpr,out);
+input [15:0] mpd,mpr;
+output [15:0] out;
+
+wire [31:0] partial_prod [15:0];
+wire [31:0] l1 [12:0];
+wire [31:0] l2 [8:0];
+wire [31:0] l3 [5:0];
+wire [31:0] l4 [3:0];
+wire [31:0] l5 [2:0];
+wire [31:0] l6 [1:0];
+

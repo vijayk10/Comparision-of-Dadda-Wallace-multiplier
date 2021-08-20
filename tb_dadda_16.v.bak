@@ -1,0 +1,10 @@
+module tb_dadda_16;
+reg [15:0]in1,in2;
+wire [31:0]out_mul;
+dadda_16_16 dut(in1,in2,out_mul);
+initial
+begin
+in1<=16'd4;
+in2<=16'd3;
+end
+endmodule

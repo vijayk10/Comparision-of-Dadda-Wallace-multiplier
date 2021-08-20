@@ -1,0 +1,12 @@
+module wallace_tb;
+reg [15:0] in_a,in_b;
+wire [32:0] out;
+
+wallace_16 w(in_a,in_b,out);
+
+initial
+begin
+in_a=16'd121;
+in_b=16'd145;
+end
+endmodule
